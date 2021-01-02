@@ -48,7 +48,7 @@ From utitlizing "group by" and "summarize" methods in R, the variance, as well a
 
 ![](Resources/deliv2_source.png)
 
----------------------------
+------------------------------------
 
 According to the first resulting "total_summary" table, the variance in PSI for all manufacturing lots as a whole appears within the desired range of 100 pounds per square inch (or less) with a value of approximately 62.29.
 
