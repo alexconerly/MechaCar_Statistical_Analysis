@@ -48,11 +48,11 @@ From utitlizing "group by" and "summarize" methods in R, the variance, as well a
 
 ![](Resources/deliv2_source.png)
 
-According to the first resulting summary table (total_summary), the variance in PSI specifically appears within the desired range of 100 pounds per square inch or less with a value of approximately 62.29.
+According to the first resulting summary table "total_summary", the variance in PSI for all manufacturing lots as a whole appears within the desired range of 100 pounds per square inch or less with a value of approximately 62.29.
 
 ![](Resources/deliv2_total.png)
 
-However, when we examine the variance in PSI grouped by each of the three lots, we find that not all of the results are within specifications.  Certainly, lot 3 exhibited a variance far above the 100 limit with a value of 170.29.
+However, when we examine the variance in PSI grouped by each of the three lots, we find that not all of the results are within specifications.  In particular, lot 3 exhibited a variance far above the 100 limit with a value of 170.29.
 
 ![](Resources/deliv2_lots.png)
 
