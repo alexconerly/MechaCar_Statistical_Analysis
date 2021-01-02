@@ -46,7 +46,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### Results:
 From utitlizing "group by" and "summarize" methods in R, the variance, as well as a variety of other statistical metrics were easily calculated for the PSI overall totals as well as the PSI grouped for each manufacturing lot in the dataset.  To calculate these metrics, including the determination of whether the design specifications for the MechaCar suspension coils were within range, the following codes were run in R:
 
-![](Resources/deliv2_source.png)
+![](Resources/Deliv2_src.png)
 
 ------------------------------------
 
