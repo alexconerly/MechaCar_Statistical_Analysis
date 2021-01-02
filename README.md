@@ -46,21 +46,19 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### Results:
 From utitlizing "group by" and "summarize" methods in R, the variance, as well as a variety of other statistical metrics were easily calculated for the PSI overall totals as well as the PSI grouped for each manufacturing lot in the dataset.  To calculate these metrics, including the determination of whether the design specifications for the MechaCar suspension coils were within range, the following codes were run in R:
 
--------------------
+
 
 ![](Resources/deliv2_source.png)
 
------------------------
+---------------------------
 
-According to the first resulting summary table "total_summary", the variance in PSI for all manufacturing lots as a whole appears within the desired range of 100 pounds per square inch or less with a value of approximately 62.29.
+According to the first resulting "total_summary" table, the variance in PSI for all manufacturing lots as a whole appears within the desired range of 100 pounds per square inch (or less) with a value of approximately 62.29.
 
------------------
 ![](Resources/deliv2_total.png)
 
 --------------------------------
-However, when we examine the variance in PSI grouped by each of the three lots, we find that not all of the results are within specifications.  In particular, lot 3 exhibited a variance far above the 100 limit with a value of 170.29.
+However, when we examine the variance in PSI grouped by each of the three lots in the "lot_summary" table, we find that not all of the results are within specifications.  In particular, lot 3 exhibited a variance far above the 100 limit with a value of 170.29.
 
----------------------
 ![](Resources/deliv2_lots.png)
 
 --------------------
