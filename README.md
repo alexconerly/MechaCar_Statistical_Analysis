@@ -3,7 +3,7 @@
 
 ## Overview of the Project
 
-
+The purpose of this project was to utilize R programming language and Rstudio GUI to aid a fictitious company called AutosRU.
 
 ---------------------------------------------
 ## Resources:
@@ -46,7 +46,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ### Results:
 From utitlizing "group by" and "summarize" methods in R, the variance, as well as a variety of other statistical metrics were easily calculated for the PSI overall totals as well as the PSI grouped for each manufacturing lot in the dataset.  To calculate these metrics, including the determination of whether the design specifications for the MechaCar suspension coils were within range, the following codes were run in R:
 
-![](Resources/Deliv2_src.png)
+![](Resources/Deliv2_src_pane.png)
 
 ------------------------------------
 
@@ -60,4 +60,3 @@ However, when we examine the variance in PSI grouped by each of the three lots i
 ![](Resources/deliv2_lots.png)
 
 --------------------
-
