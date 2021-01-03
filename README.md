@@ -88,4 +88,6 @@ Finally, the t-test to compare each lot produced varying results for each lot.  
 -----------------
 ## Study Design: MechaCar vs Competition
 
-To further aid AutosRU in 
+Although the previous analyses could certainly prove useful for internal purposes for AutosRU, to further aid AutosRU in improving their MechaCar prototype for maximal performance against the competition, designing another study may be worth further analysis to compare metrics with competitors.  In this study design, the MechaCar data could be analyzed against one or more competitors data to highlight a variety of metrics which may be of interest to a potential consumer looking for their next vehicle.
+
+For starters, highway fuel efficiency of MechaCar data could be compared to a competitor's efficiency.  One way to conduct this statistical study would involve setting the null hypothesis to be that there is no statistical difference between a sample of MechaCar's
