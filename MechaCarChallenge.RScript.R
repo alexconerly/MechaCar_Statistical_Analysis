@@ -27,3 +27,13 @@ lot_summary <- df2 %>%
                            Median=median(PSI),
                            Variance=var(PSI),
                            SD=sd(PSI))
+
+#Deliverable 3: T-Tests on Suspension Coils
+
+t.test(df2$PSI, mu=1500)
+
+t.test(subset(df2, PSI == "Lot1"), mu=1500)
+
+t.test(formula = 1500 ~ PSI,
+       data = df2,
+       subset = df2$PSI == "Lot1")
