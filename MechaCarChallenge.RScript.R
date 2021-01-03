@@ -11,6 +11,7 @@ mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
 
 summary(mecha_lm)
 
+
 #DELIVERABLE 2:  Create Visualizations for the Trip Analysis
 
 df2 <- read.table("Suspension_Coil.csv", header=T, sep = ",", check.names=F,
