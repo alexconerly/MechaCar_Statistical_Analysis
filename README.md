@@ -3,7 +3,7 @@
 
 ## Overview of the Project
 
-The purpose of this project was to utilize R programming language and Rstudio GUI to aid a fictitious company called AutosRU.
+The purpose of this project was to utilize R programming language and Rstudio GUI to aid a fictitious company called AutosRU in performing statistical tests on their datasets for a prototype vehicle called "MechaCar".  In essense, the prototype was suffering from production troubles and needed insights to help the manufacturing team with some data analyses.  The statistical tests included summary statistics, visualizations, and a variety of hypothesis testing procedures on the company-specific datasets.  Below, there are three sets of analyses described in detail followed by an additional statistical study design to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
 
 ---------------------------------------------
 ## Resources:
@@ -85,3 +85,7 @@ Finally, the t-test to compare each lot produced varying results for each lot.  
 
 ![](Resources/Deliv3_eachlot.png)
 
+-----------------
+## Study Design: MechaCar vs Competition
+
+To further aid AutosRU in 
