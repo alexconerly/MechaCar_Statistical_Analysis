@@ -4,7 +4,7 @@
 #DELIVERABLE 1:  Linear Regression to Predict MPG
 
 library(tidyr)
-df <- read.csv("MechaCar_mpg.csv",check.names=F,stringsAsFactors = F)
+df <- read.csv("Data_Sources/MechaCar_mpg.csv",check.names=F,stringsAsFactors = F)
 
 mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
                 ground_clearance + AWD, data=df)
@@ -16,7 +16,7 @@ summary(mecha_lm)
 
 #DELIVERABLE 2:  Create Visualizations for the Trip Analysis
 
-df2 <- read.table("Suspension_Coil.csv", header=T, sep = ",", check.names=F,
+df2 <- read.table("Data_Sources/Suspension_Coil.csv", header=T, sep = ",", check.names=F,
                   stringsAsFactors = F)
 
 total_summary <- df2 %>% summarize(Mean=mean(PSI),
