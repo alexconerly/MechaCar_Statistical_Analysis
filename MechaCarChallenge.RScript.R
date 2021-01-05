@@ -3,7 +3,7 @@
 
 #DELIVERABLE 1:  Linear Regression to Predict MPG
 
-library(tidyr)
+library(dplyr)
 df <- read.csv("MechaCar_mpg.csv",check.names=F,stringsAsFactors = F)
 
 mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle +
