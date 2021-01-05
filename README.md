@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 
 
 ## Overview of the Project
@@ -92,7 +92,7 @@ To further aid AutosRU in improving their MechaCar prototype for maximal perform
 
 ### Choosing a metric to test:
 
-Although there a multitude of possible metrics to consider, it may be useful to focus on how MechaCar's mean highway fuel efficiency (measured in MGP) in particular and compare it to the mean value of multiple competitors.  To do this, it would be ideal to compare vehicles in the same "class" as this could theoretically minimize "statistical noise" when attempting to determine statistical significance.
+Although there a multitude of possible metrics to consider, it may be useful to focus on how MechaCar's mean highway fuel efficiency (measured in MGP) in particular and compare it to the mean value of multiple competitors.  To do this, it would be ideal to compare vehicles which are as similar as possible as this could theoretically minimize "statistical noise" when attempting to determine statistical significance.
 
 ### What is the null hypothesis or alternative hypothesis?
 
@@ -100,7 +100,7 @@ Once we have selected a metric to analyize, it is imperative to identify our nul
 
 ### What statistical test would you use to test the hypothesis? And why?
 
-In order to test the hypotheis that there is no statistical difference between the MechaCar prototype and the fuel efficiency of competitors, we could use a one-way ANOVA test.  Also known as the analysis of variance test, the ANOVA test would allow us to test the null hypothesis that the means of all groups are equal.  As such, this would correspond well with our original orchestration of the null hypothesis.  In this case, the sammple means would include MechaCar's MPG values and mean MPG values from samples from competitors.
+In order to test the hypotheis that there is no statistical difference between the MechaCar prototype and the fuel efficiency of competitors, we could use a one-way ANOVA test.  Also known as the analysis of variance test, the ANOVA test would allow us to test the null hypothesis that the means of all groups are equal.  As such, this would correspond well with our original orchestration of the null hypothesis.  In this case, the sample means would include MechaCar's MPG values and mean MPG values from samples of similar competitor vehicles.
 
 ### What data is needed to run the statistical test?
 
