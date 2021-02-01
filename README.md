@@ -1,5 +1,6 @@
 # MechaCar Statistical Analysis
 
+![](Resources/public_domain_image.png)
 
 ## Overview of the Project
 
